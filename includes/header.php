@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Construction is ultimate responsive construction html template which include 3 homepage demos.">
-        <title>Construction - Ultimate Responsive Construction Template</title>
+        <title>Hi-Tech Rubber Industries</title>
         
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">

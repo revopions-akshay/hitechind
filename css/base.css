@@ -139,18 +139,31 @@ textarea:-ms-input-placeholder{
 .bg-white{ background-color: #fff; }
 .bg-grey{ background-color: #f7f7f7; }
 .bg-yellow{ background-color: #00a2ff; }
-.bg-dark{ background-color: #000;  }
-.bg-dark{background-image: url("https://demo2.drfuri.com/taalem/wp-content/uploads/sites/30/2017/09/h8.jpg");}
+/* .bg-dark{ background-color: #000;  } */
+/* .bg-dark{background-image: url("https://demo2.drfuri.com/taalem/wp-content/uploads/sites/30/2017/09/h8.jpg");} */
 
-.bg-dark {
-    background-color: #000;
-    color: #bababa;
+/* .bg-dark {
+    color: #000;
+    background-image: url("https://demo2.drfuri.com/taalem/wp-content/uploads/sites/30/2017/09/h8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+} */
+.bg-dark-1{
+
+	background-color: #000;
+	color: #bababa;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .has-image {
     position: relative;
 }
+
+.bg-dark{
+	background-image: url('https://html.dynamiclayers.net/dl/construction/html/img/slide-1.jpg');
+}
+
+
 
 /* Text Color
    ================================= */
