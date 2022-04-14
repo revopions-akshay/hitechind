@@ -148,9 +148,9 @@ textarea:-ms-input-placeholder{
     background-repeat: no-repeat;
     background-size: cover;
 } */
-.bg-dark-1{
+/* .bg-dark{
 
-	background-color: #000;
+	background-color: #1213149e;
 	color: #bababa;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -161,7 +161,23 @@ textarea:-ms-input-placeholder{
 
 .bg-dark{
 	background-image: url('https://html.dynamiclayers.net/dl/construction/html/img/slide-1.jpg');
-}
+} */
+
+.tinted-image {
+  
+
+	
+	background: 
+	  /* top, transparent red */ 
+	  linear-gradient(
+		#000000e5, 
+		#000000e5
+	  ),
+	  /* bottom, image */
+	  url(https://demo2.drfuri.com/taalem/wp-content/uploads/sites/30/2017/09/h8.jpg);
+	  background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 
 

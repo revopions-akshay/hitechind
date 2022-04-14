@@ -1,5 +1,5 @@
         <!-- <div class="bg"> -->
-            <div class="bg-dark bg-dark-1 has-image">
+            <div class="bg-dark tinted-image">
                 <section class="widget-section bd-top-dark padding">
 
 
@@ -72,7 +72,7 @@
                 </section>
                 <!-- widget-section -->
 
-                <footer class="footer-section text-center bd-top-dark ptb-40 tt-u"></footer>
+                <footer class="footer-section text-center bd-top-dark ptb-40 tt-u">
                     <div class="container">
                         <p class="no-margin fz-13 text-light">&copy; Copyright 2017 Hi Tech Rubber - All Rights Reserved</p>
                     </div>

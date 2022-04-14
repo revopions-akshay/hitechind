@@ -214,4 +214,4 @@
             </div>
         </section><!-- cta-section -->
         
-<?php include ?>
+<?php include('footer.php'); ?>
