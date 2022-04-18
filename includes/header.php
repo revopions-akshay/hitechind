@@ -1,4 +1,6 @@
-<!doctype html>
+
+
+        <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -34,6 +36,7 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -41,14 +44,14 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div id='preloader' >
+		
+		<div id='preloader' >
             <div class='loader' >
                 <img src="img/preloader.svg" width="60" alt="">
             </div>
         </div><!-- Preloader -->
-		
-		<header id="header" class="header header-bd double-header">
+        
+        <header id="header" class="header dark-header header-bd double-header">
             <!-- <div class="header-top header-bd ptb-10">
                 <div class="container">
                     <div class="col-xs-12 text-right xs-text-center">
@@ -70,7 +73,7 @@
                 <div class="container">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a href="#" class="brand"><img src="img/HI-TECH-logo.png" alt="Construction"></a>
+                            <a href="@" class="brand"><img src="img/HI-TECH-logo.png" alt="Construction"></a>
                         </div>
                     </div>
                     <div class="col-sm-9 hidden-xs">
@@ -79,7 +82,7 @@
                         </div>
                         <nav class="mainmenu pull-right">
                             <ul id="navi-menu">
-                                <li class="current_page_item"><a href="index.php">Home</a>
+                            <li class="current_page_item"><a href="index.php">Home</a>
                                     <ul>
                                         <li><a href="index.php">Home Default</a></li>
                                         

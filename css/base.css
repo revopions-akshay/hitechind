@@ -179,6 +179,33 @@ textarea:-ms-input-placeholder{
 	background-size: cover;
   }
 
+.socials a {
+    width: 36px;
+    height: 36px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #212628;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 7px;
+}
+
+.socials{
+ text-align: end;
+}
+
+.site-footer .footer-widgets .widget ul > li > a:before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-family: FontAweSome;
+    content: "\f0da";
+    transition: 0.35s;
+    color: #6a4e77;
+}
 
 
 /* Text Color
@@ -983,15 +1010,14 @@ ul.top-social li a:hover{
 	padding-left: 25px;
 }
 .list-1 li:before{
-	background-color: #00a2ff;
-	content: '';
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
 	position: absolute;
-	left: 0;
-	top: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-family: FontAweSome;
+    content: "\f0da";
+    transition: 0.35s;
+    color: #00a2ff;
 }
 .list-1.check li:before{
 	background-color: transparent;
@@ -1014,15 +1040,14 @@ ul.top-social li a:hover{
     opacity: 1;
 } 
 .list-1.angel li:before{
-	background-color: transparent;
-    font-family: 'themify';
-    font-size: 8px;
-	width: 8px;
-	height: 8px;
-    color: #fff;
-	content: '\e649';
-	border-radius: none;
-	top: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-family: FontAweSome;
+    content: "\f0da";
+    transition: 0.35s;
+    color: #00a2ff;
 }
 .list-1.grey-bullet li:before{
 	background-color: #999;
@@ -1171,4 +1196,62 @@ ul.top-social li a:hover{
 	background-color: #00a2ff;
     border: 2px solid #00a2ff;
 	transition: all 0.3s linear;
+}
+
+
+.footer-newsletter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-newsletter .newsletter-content {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    background-image: url(img/email.png);
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    background-position: center left;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+.footer-newsletter .newsletter-form .mc4wp-form-fields {
+    display: flex;
+    align-items: center;
+}
+
+.footer-newsletter .newsletter-form .mc4wp-form-fields input[type="email"], .footer-newsletter .newsletter-form .mc4wp-form-fields input[type="text"] {
+    border: 2px solid #54575a;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    width: 270px;
+    margin-right: 25px;
+    color: #54575a;
+    background-color: transparent;
+}
+
+.newsletter-form .mc4wp-form-fields input[type="submit"] {
+    padding: 0 25px;
+    height: 42px;
+    line-height: 40px;
+    background-color: transparent;
+    transition: all 0.5s;
+    color: #6a4e77;
+    font-size: 13px;
+    border: 2px solid #6a4e77;
+    border-radius: 0;
+    text-align: center;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 170px;
+    height: 38px;
+    line-height: 36px;
 }

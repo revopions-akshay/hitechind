@@ -16,12 +16,30 @@
 
 
 
-                            <ul class="social-icon-white top-social hidden-xs" style="text-align: right;">
+                            <!-- <ul class="social-icon-white top-social hidden-xs" style="text-align: right;">
                                 <li><a href="https://www.facebook.com/Hi-Tech-Rubber-103662611574204" target="_blank"><i class="ti-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/hi_techrubber" target="_blank"><i class="ti-twitter"></i></a></li>
                           
                                 <li><a href="https://www.instagram.com/hitechrubber/" target="_blank"><i class="ti-instagram"></i></a></li>
-                            </ul>
+                            </ul> -->
+
+                            <div class="socials">
+                                <a href="https://facebook.com/taalem" target="_blank" class="font-fa">
+                                    <i class="social fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/taalem" target="_blank" class="font-fa">
+                                    <i class="social fa fa-twitter"></i>
+                                </a>
+                                <a href="https://plus.google.com/taalem" target="_blank" class="font-fa">
+                                    <i class="social fa fa-google-plus"></i>
+                                </a>
+                                <a href="https://www.skype.com/taalem" target="_blank" class="font-fa">
+                                    <i class="social fa fa-skype"></i>
+                                </a>
+                                <a href="https://www.youtube.com/taalem" target="_blank" class="font-fa">
+                                    <i class="social fa fa-youtube"></i>
+                                </a>
+                            </div>
 
                         </div><!-- widget 2 -->
                      
@@ -72,7 +90,45 @@
                 </section>
                 <!-- widget-section -->
 
-                <footer class="footer-section text-center bd-top-dark ptb-40 tt-u">
+                <div class="footer-newsletter container bd-top-dark">
+                    <div class="newsletter-content">OUR <strong>NEWSLETTER</strong>
+                    </div>
+                    <div class="newsletter-form">
+                            <script>
+                            (function() {
+                                window.mc4wp = window.mc4wp || {
+                                    listeners: [],
+                                    forms: {
+                                        on: function(evt, cb) {
+                                            window.mc4wp.listeners.push(
+                                                {
+                                                    event   : evt,
+                                                    callback: cb
+                                                }
+                                            );
+                                        }
+                                    }
+                                }
+                            })();
+                            </script>
+                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-9438" method="post" data-id="9438" data-name="Newsletter">
+                            <div class="mc4wp-form-fields">
+                                <input type="text" name="name" placeholder="Your Name" required=""> 
+                                <input type="email" name="EMAIL" placeholder="Your Email" required=""> 
+                                <input type="submit" value="Subscribe Now">
+                            </div>
+                                <label style="display: none !important;">Leave this field empty if you're human: 
+                                <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label>
+                                <input type="hidden" name="_mc4wp_timestamp" value="1650261597">
+                                <input type="hidden" name="_mc4wp_form_id" value="9438">
+                                <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                            <div class="mc4wp-response">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <footer class="footer-section container text-center bd-top-dark ptb-40 tt-u">
                     <div class="container">
                         <p class="no-margin fz-13 text-light">&copy; Copyright 2017 Hi Tech Rubber - All Rights Reserved</p>
                     </div>
